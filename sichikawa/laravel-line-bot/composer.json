@@ -1,0 +1,22 @@
+{
+  "name": "s-ichikawa/laravel-line-bot",
+  "description": "line bot library for laravel.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "s-ichikawa",
+      "email": "ichikawa.shingo.0829@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.2",
+    "illuminate/container": "^5.2",
+    "illuminate/support": "^5.2",
+    "illuminate/http": "^5.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8",
+    "illuminate/filesystem": "^5.2"
+  }
+}
