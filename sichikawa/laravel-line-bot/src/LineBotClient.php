@@ -24,6 +24,15 @@ class LineBotClient
     }
 
     /**
+     * @param $message
+     * @return ReceivingMessage
+     */
+    public function parse($message)
+    {
+        return new ReceivingMessage($message);
+    }
+
+    /**
      * @param $text
      */
     public function text($text)
@@ -31,3 +40,5 @@ class LineBotClient
         \Log::debug($text);
     }
 }
+
+
